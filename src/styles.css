@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 5rem;
+   min-height: 100vh;
+   background-color: rgb(78, 180, 180);
+   color: white;
+   font-family: 'Fredoka', serif;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+form {
+   width: 40%;
+   display: flex;
+}
+
+input {
+   padding: 12px;
+   outline: none;
+   border: 3px solid rgb(78, 180, 180);
+   border-radius: 10px;
+}
+
+input[type="text"] {
+   width: 70%;
+}
+
+input[type="number"] {
+   width: 20%;
+}
+
+input::placeholder {
+   font-style: italic;
+   color: rgb(68, 153, 153)
+}
+
+button {
+   width: 20%;
+   color: white;
+   background-color: rgb(61, 151, 151);
+   outline: none;
+   border: 1px solid rgb(78, 180, 180);
+   border-radius: 10px;
+}
+
+table {
+   width: 40%;
+   color: rgb(68, 153, 153);
+   margin-top: 2rem;
+}
+
+thead,
+tbody,
+th,
+td {
+   background-color: white;
+   border-collapse: collapse;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   padding: 6px 10px;
+}
+
+th:first-child,
+td:first-child {
+   text-align: center;
+   width: 20px;
+}
